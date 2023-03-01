@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+/* everything selector for generals*/
+*{
+    box-sizing:border-box;
+    font-family:Rubik;
+}
+ 
+ /*  getting rid of the white space and making the background fill the entire image  */
+
+ html, body {
+    margin: 0; 
+    padding: 0;
+ }
+ /*there was still a tiny bit left at the ul element so set the margin to 0 here too */
+
+ .nav ul{
+    margin:0; 
+ }
+ .nav li {
+    display: inline;
+ }
+
+ .nav a{
+    /* space out the header elements from each other */
+    display: inline-block;
+    padding: .5em;
+    color: rgba(215, 42, 128);
+ }
+
+ .main-nav{
+    text-align:center;
+    font-size: 1.1 em; 
+    font-weight:lighter;
+    border-bottom: 1px solid rgba (215, 215, 128);
+ }
+
+ .main-nav li {
+    padding: 6% 5%
+ }
+
+ .nav a:hover{
+    background-color: rgba(231, 137, 206, 0.281);
+ }
+.main-header {
+    background-color: rgba(226, 226, 22, 0.3);
+    background-image: url("../images/fractiles.png");
+    background-blend-mode:difference;
+    background-size: cover;
+    padding-bottom: 3px;
+    color: rgba(132, 6, 6, 0.879);
+}
+.piece-name{
+    text-align: center;
+    margin: 0;
+    font-size: 6em;
+}
+.piece-name-large {
+    font-size: 7em;
+}
+.sub-name {
+    text-align:center;
+    font-size: 5em;
+}
+
+
+/*main part*/
+.content-section container{
+    background-color: rgba(241, 229, 242, 0.808);
+    background-size: cover; 
+    padding-top: 20px;
+    border-top: double;
+}
+.body-header{
+    margin: 2em;
+    text-align: center;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.alexis-image{
+    float: left;
+    height: 250px;
+    width: 250 px;
+    margin: 15px; 
+    border-radius: 50%;
+}
+
+.brain-image{
+    float: right;
+    height:50%;
+    width: 50%;
+    margin-top:15px;
+    margin-left:15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+.lady-pic{
+    float:right;
+    margin-left: auto;
+    margin-right: auto;
+    height:150px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.brains{
+    float: left;
+    height:150px;
+    width: 150px;
+    border-radius: 8px;
+}
+.sub-header{
+    font-weight: bold;
+    text-align: justify;
+}
+.ps{
+    text-align: justify;
+    text-align-last:none;
+}
+
+
+
+
+/*-----------------------BOTTOM-----------------*/
+.main-footer{
+    background-color: rgba(225, 92, 158, 0.316);
+    background-image: url("../images/soft_electric.jpg");
+    background-blend-mode: multiply;
+    color: white;
+    padding: .25;
+    background-size:cover;
+    padding-bottom:10px;
+
+}
+main-footer-container {
+    display: flex;
+    align-items:center;
+}
+.main-footer-container ul{
+    flex-grow:1;
+    text-align:end;
+}
+.footer-nav li{
+    padding:0 .5em;
+}
+.footer-nav img{
+    width:30px;
+    height:30px;
+}
+
