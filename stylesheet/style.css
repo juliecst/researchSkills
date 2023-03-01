@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 
 /* everything selector for generals*/
 *{
     box-sizing:border-box;
-    font-family:Rubik;
+    font-family: "Monserrat", sans-serif;
+   
 }
  
  /*  getting rid of the white space and making the background fill the entire image  */
@@ -27,13 +28,15 @@
     display: inline-block;
     padding: .5em;
     color: rgba(215, 42, 128);
+    
  }
 
  .main-nav{
     text-align:center;
     font-size: 1.1 em; 
     font-weight:lighter;
-    border-bottom: 1px solid rgba (215, 215, 128);
+    border-bottom: 1px solid rgba(215, 215, 128);
+  
  }
 
  .main-nav li {
@@ -44,14 +47,21 @@
     background-color: rgba(231, 137, 206, 0.281);
  }
 .main-header {
-    background-color: rgba(226, 226, 22, 0.3);
+    background-color: rgba(226, 226, 22, 0.795);
     background-image: url("../images/fractiles.png");
     background-blend-mode:difference;
     background-size: cover;
     padding-bottom: 3px;
-    color: rgba(132, 6, 6, 0.879);
+    font-family: Monserrat bold;
+}
+
+.course-name{
+    color: rgb(187, 15, 103);
+    text-align: center;
+    font-size:5em;
 }
 .piece-name{
+    color: rgba(239, 221, 233, 0.758);
     text-align: center;
     margin: 0;
     font-size: 6em;
@@ -99,6 +109,7 @@
     margin-left:15px;
     margin-bottom: 15px;
     border-radius: 8px;
+
 }
 .lady-pic{
     float:right;
@@ -118,10 +129,14 @@
 .sub-header{
     font-weight: bold;
     text-align: justify;
+    color: #777;
 }
 .ps{
     text-align: justify;
     text-align-last:none;
+    line-height: 1.5;
+    color: #777;
+    
 }
 
 /*-----------------------REFERENCES----------------*/
@@ -132,11 +147,12 @@
 
 /*-----------------------BOTTOM-----------------*/
 .main-footer{
-    background-color: rgba(225, 92, 158, 0.316);
-    background-image: url("../images/soft_electric.jpg");
+    background-color: rgba(226, 226, 22, 0.795);
+    background-image: url("../images/footer.jpg");
+    background-blend-mode:difference;
     background-blend-mode: multiply;
     color: white;
-    padding: .25;
+    padding: 5px;
     background-size:cover;
     padding-bottom:10px;
 
@@ -146,11 +162,12 @@ main-footer-container {
     align-items:center;
 }
 .main-footer-container ul{
-    flex-grow:1;
-    text-align:end;
+    flex-grow:2;
+    text-align:center;
+    font-size: 1.5em;
 }
 .footer-nav li{
-    padding:0 .5em;
+    padding:0 3em ;
 }
 .footer-nav img{
     width:30px;
